@@ -1,0 +1,69 @@
+body{
+    background: rgb(49, 85, 17);
+    background-size: cover;
+  
+}
+.modal-content{
+    background:  rgb(115, 184, 58);
+    border-color: rgb(63, 138, 3);
+    box-shadow: 0px 0px 19px rgb(236, 255, 197);
+}
+.main-section{
+    margin: 0 auto;
+    margin-top: 30%;
+    padding: 0;
+} 
+.user-img{
+    margin-top: -50px;
+    margin-bottom: 35px;
+    
+}
+.user-img img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 19px rgb(115, 184, 58);
+    border-radius: 50%;
+}
+.btn {
+    width: 60%;
+    margin: 5px 0 25px;
+    background: rgb(50, 105, 2);
+    border-color: rgb(111, 240, 5);
+    font-family: Century Gothic;
+}
+.link{
+    color: rgb(19, 39, 1);
+    font-family: Roboto;
+    font-size: 20px;
+    padding: 5px 0 ;
+}
+.form-control{
+    box-shadow: 0px 2px 10px rgb(36, 54, 1);
+    outline: none;
+    background: rgb(193, 255, 142); 
+    color: black;
+    display: block;
+    width: 100%;
+    padding: 10px 15px; 
+    font-weight: normal;
+    font-family:  Georgia;
+    letter-spacing: 1px;
+    font-style: 18px;
+    cursor: pointer;
+    padding-left: 70px;
+}
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 50px;
+    padding-top: 10px;
+}
+.form-group#user-group::before{
+    content: "\f007";
+}
+.form-group#contraseña-group::before{
+    content: "\f023";
+}
+
+
+
